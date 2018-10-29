@@ -31,12 +31,10 @@
 
 ******************************************************************************/
 
-#include <linux/timex.h>
- // avoid indirect inclusion of time.h since this will clash with linux/timex.h
 #define _TIME_H  1
 #define _STRUCT_TIMEVAL 1
-#define __timeval_defined 1
-#define __timespec_defined 1
+#include <linux/timex.h>
+ // avoid indirect inclusion of time.h since this will clash with linux/timex.h
 #include <linux_hal_generic.hpp>
 #include <syscall.h>
 #include <math.h>

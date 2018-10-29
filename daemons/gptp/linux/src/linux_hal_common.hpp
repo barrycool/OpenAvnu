@@ -47,6 +47,7 @@
 #include <ether_tstamper.hpp>
 #include <linux/ethtool.h>
 #include "../../common/macaddress.hpp"
+#include "linux_hal_common.hpp"
 
 #include <list>
 
@@ -666,7 +667,7 @@ private:
 	int fAddrRegPort;
 public:
 	LinuxIPCArg() :
-	 fGroupName(""),
+	 fGroupName("ptp"),
 	 fAddrRegPort(0)
 	{}
 

@@ -6,6 +6,7 @@
 CMakeCache.txt
 
 daemons/maap/linux/maap_daemon
+daemons/gptp/.vscode/
 examples/jackd-listener/jack_listener
 examples/jackd-talker/jackd_talker
 examples/live_stream/listener
