@@ -47,7 +47,6 @@
 #include <ether_tstamper.hpp>
 #include <linux/ethtool.h>
 #include "../../common/macaddress.hpp"
-#include "linux_hal_common.hpp"
 
 #include <list>
 
